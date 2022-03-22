@@ -1,0 +1,192 @@
+html {
+
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(#001427, #053c83, #001427);
+    text-shadow: 5px 5px 5px #001427;
+}
+
+header {
+
+    background: linear-gradient(#053c83, #001427);
+    padding: 20px 0px;
+    border-bottom: 4px solid #82b8ff;
+    box-shadow: 5px 5px 5px #001427;
+    position: relative;
+}
+
+.box {
+
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.box nav {
+
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.box nav li {
+
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+.box nav a {
+
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.box nav a:hover {
+
+    color: #82b8ff;
+}
+
+.logo {
+
+    width: 125px;
+    background: white;
+    border: 2px solid #82b8ff;
+    box-shadow: 5px 5px 5px #001427;
+}
+
+.banner {
+
+    width: 100%;
+    box-shadow: 5px 5px 5px #001427;
+}
+
+main {
+
+    color: white;
+    width: 940px;
+    margin: 0px auto;
+    font-size: 1.25em;
+}
+
+.tittle {
+
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    clear: both;
+}
+
+.img-tools {
+
+    width: 20%;
+    float: left;
+    margin: 0px 20px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #001427;
+}
+
+.map {
+
+    padding: 3em 0em;
+}
+
+.map p {
+
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.map-box{
+
+    box-shadow: 5px 5px 5px #001427;
+    border-radius: 10px;
+}
+
+.main {
+
+    padding: 3em 0em;
+}
+
+.main p {
+
+    margin-bottom: 1em;
+}
+
+.main strong {
+
+    font-weight: bold;
+}
+
+.main em {
+
+    font-style: italic;
+}
+
+.benefits {
+
+    padding: 3em 0px;
+}
+
+.content-benefits {
+
+    width: auto;
+    margin: 0px auto;
+}
+
+.img-benefits {
+
+    width: 50%;
+    float: left;
+    margin-right: 70px;
+    box-shadow: 5px 5px 5px #001427;
+    border-radius: 10px;
+}
+
+.list-benefits {
+
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+
+    line-height: 2.5em;
+    font-weight: bold;
+}
+
+.items::before {
+
+    content: "ᐳ ";
+}
+
+.video {
+
+    margin: 5em auto;
+}
+
+.video-box {
+
+    width: 100%;
+    height: 500px;
+    box-shadow: 5px 5px 5px #001427;
+    border-radius: 10px;
+}
+
+footer {
+
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px;
+}
+
+.copyright {
+
+    color: white;
+    font-size: 13px;
+    margin: 20px 0px 0px;
+}

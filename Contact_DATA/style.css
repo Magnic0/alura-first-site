@@ -1,0 +1,146 @@
+html {
+
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(#001427, #053c83, #001427);
+    text-shadow: 5px 5px 5px #001427;
+}
+
+header {
+
+    background: linear-gradient(#053c83, #001427);
+    padding: 20px 0px;
+    border-bottom: 4px solid #82b8ff;
+    box-shadow: 5px 5px 5px #001427;
+    position: relative;
+}
+
+.box {
+
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.box nav {
+
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.box nav li {
+
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+.box nav a {
+
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.box nav a:hover {
+
+    color: #82b8ff;
+}
+
+.logo {
+
+    width: 125px;
+    background: white;
+    border: 2px solid #82b8ff;
+    box-shadow: 5px 5px 5px #001427;
+}
+
+main {
+
+    color: white;
+    width: 940px;
+    margin: 0px auto;
+    padding-left: 28%;
+}
+
+form {
+
+    margin: 40px 0px;
+}
+
+form label, form legend {
+
+    display: block;
+    font-size: 20px;
+    margin: 0px 0px 10px;
+    font-weight: bold;
+}
+
+.input-default {
+
+    display: block;
+    margin: 0px 0px 20px;
+    padding: 10px 5px;
+    width: 50%;
+}
+
+.checkbox {
+
+    margin: 20px 5px;
+}
+
+#submit-button {
+
+    display: absolute;
+    padding: 15px 0px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: darkblue;
+    border-style: dashed;
+    border-color: #82b8ff;
+    border-radius: 5px;
+    transition: 0.25s all;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+
+    background-color: #001427;
+    transform: scale(1.1);
+}
+
+table {
+
+    margin: 20px 40px;
+    width: 20%;
+}
+
+thead {
+
+    font-weight: bold;
+    background-color: #001427;
+}
+
+td, th {
+
+    border: 2px solid black;
+    padding: 10px 10px;
+}
+
+footer {
+
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px;
+}
+
+.copyright {
+
+    color: white;
+    font-size: 13px;
+    margin: 20px 0px 0px;
+}
