@@ -1,4 +1,4 @@
-# Presentation
+# Description
 
 This is my first non-professional Frontend project, made in studying at [Alura](alura.com.br).
 Be free to explore it and make your own changes by downloading the .zip file with all the content.
