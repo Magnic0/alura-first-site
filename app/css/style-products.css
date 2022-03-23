@@ -115,6 +115,7 @@ footer {
     text-align: center;
     background: url("../../img/bg.jpg");
     padding: 40px;
+    box-shadow: 0px -5px 5px #001427;
 }
 
 .copyright {
