@@ -155,13 +155,13 @@ main {
 
 .items {
 
-    line-height: 2.5em;
+    line-height: 2.6em;
     font-weight: bold;
 }
 
 .items::before {
 
-    content: "ᐳ ";
+    content: "\00B7";
 }
 
 .video {
